@@ -1,0 +1,39 @@
+###
+POST http://localhost:3000/api/v1/login
+Content-Type: application/json
+
+{    
+    "email":"contador.manuel3@gmail.com",
+    "password": "123456789"    
+}
+
+###
+POST http://localhost:3000/api/v1/register
+Content-Type: application/json
+
+{    
+    "email":"contador.manuel3@gmail.com",
+    "password": "123456789",
+    "repassword":"123456789"    
+}
+
+
+
+
+
+###
+POST http://localhost:3000/user
+Content-Type: text/plain
+
+Hola mundo
+
+###
+POST http://localhost:3000/user
+Content-Type: application/x-www-form-urlencoded
+
+title=mi+primer+titulo&description=mi+descripcion+de+este+titulo
+
+
+
+
+
