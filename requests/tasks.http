@@ -18,6 +18,11 @@ Content-Type: application/json
 }
 
 
+###
+GET http://localhost:3000/api/v1/auth/proteger
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODUzNDkwZTFmYTg4ZGU2YWJjY2VlZTMiLCJpYXQiOjE3NTAyOTQ2NzgsImV4cCI6MTc1MDI5NTU3OH0.OB9zKBchtqMqO_sOT3lLEXeEdbU-lwR4ICqKGJ1CG3s
+
+
 
 
 
