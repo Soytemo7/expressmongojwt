@@ -3,7 +3,7 @@ POST http://localhost:3000/api/v1/auth/login
 Content-Type: application/json
 
 {    
-    "email":"contador.manuel3@gmail.com",
+    "email":"contador.manuel4@gmail.com",
     "password": "123456789"    
 }
 
@@ -12,7 +12,7 @@ POST http://localhost:3000/api/v1/auth/register
 Content-Type: application/json
 
 {    
-    "email":"contador.manuel3@gmail.com",
+    "email":"contador.manuel4@gmail.com",
     "password": "123456789",
     "repassword":"123456789"    
 }
@@ -21,6 +21,36 @@ Content-Type: application/json
 ###
 GET http://localhost:3000/api/v1/auth/proteger
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODUzNDkwZTFmYTg4ZGU2YWJjY2VlZTMiLCJpYXQiOjE3NTAyOTQ2NzgsImV4cCI6MTc1MDI5NTU3OH0.OB9zKBchtqMqO_sOT3lLEXeEdbU-lwR4ICqKGJ1CG3s
+
+  
+###
+GET http://localhost:3000/api/v1/links
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA0MDAwNzgsImV4cCI6MTc1MDQwMzY3OH0.GMHhWiWxB7nEP3BK92T3vieu1PVkYCea44XHZqqLPEo
+
+###
+GET http://localhost:3000/api/v1/links/6854bbfaf14fde04101fafc3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA0MDAwNzgsImV4cCI6MTc1MDQwMzY3OH0.GMHhWiWxB7nEP3BK92T3vieu1PVkYCea44XHZqqLPEo
+
+###
+GET http://localhost:3000/api/v1/links/<script>6854bbfaf14fde04101fafc3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA0MDAwNzgsImV4cCI6MTc1MDQwMzY3OH0.GMHhWiWxB7nEP3BK92T3vieu1PVkYCea44XHZqqLPEo
+
+###
+DELETE http://localhost:3000/api/v1/links/6854bbfaf14fde04101fafc3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA0MDAwNzgsImV4cCI6MTc1MDQwMzY3OH0.GMHhWiWxB7nEP3BK92T3vieu1PVkYCea44XHZqqLPEo
+
+
+###
+POST http://localhost:3000/api/v1/links
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTAzODMzMjcsImV4cCI6MTc1MDM4NDIyN30.Wil0wOE_WQq9h2VLR30Jbz_398tfVHFAXJlxNAJ3mu8
+Content-Type: application/json
+
+{    
+    "longLink":"https://www.ejemplos.co/articulos/"
+}
+
+
+
 
 
 
