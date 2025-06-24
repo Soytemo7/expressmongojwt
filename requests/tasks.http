@@ -25,11 +25,10 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODUzNDkwZ
   
 ###
 GET http://localhost:3000/api/v1/links
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA0MDAwNzgsImV4cCI6MTc1MDQwMzY3OH0.GMHhWiWxB7nEP3BK92T3vieu1PVkYCea44XHZqqLPEo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA3ODU4NDYsImV4cCI6MTc1MDc4OTQ0Nn0.LbNMOuJMl2McPuYTNilit09K3rLuDxcmn_vki1xlzLo
 
 ###
-GET http://localhost:3000/api/v1/links/6854bbfaf14fde04101fafc3
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA0MDAwNzgsImV4cCI6MTc1MDQwMzY3OH0.GMHhWiWxB7nEP3BK92T3vieu1PVkYCea44XHZqqLPEo
+GET http://localhost:3000/api/v1/links/jXMBHJ
 
 ###
 GET http://localhost:3000/api/v1/links/<script>6854bbfaf14fde04101fafc3
@@ -50,10 +49,23 @@ Content-Type: application/json
 }
 
 
+###
+PATCH http://localhost:3000/api/v1/links/6854bbb8f14fde04101fafc1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA3ODU4NDYsImV4cCI6MTc1MDc4OTQ0Nn0.LbNMOuJMl2McPuYTNilit09K3rLuDxcmn_vki1xlzLo
+Content-Type: application/json
 
+{    
+    "longLink":"https://mongoosejs.com/"
+}
 
+###
+PATCH http://localhost:3000/api/v1/links/6854bbb8f14fde04101fafc1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODU0YjBjYmRjYTM5YThiZDhmNTVkZjciLCJpYXQiOjE3NTA3ODU4NDYsImV4cCI6MTc1MDc4OTQ0Nn0.LbNMOuJMl2McPuYTNilit09K3rLuDxcmn_vki1xlzLo
+Content-Type: application/json
 
-
+{    
+    "longLink":"https://www.eliteguias.com/guias/o/ot2/octopath-traveler-ii.php"
+}
 
 
 ###
